@@ -1,10 +1,10 @@
-# Dispatching custom events
+# Генерация собственных событий
 
-We can not only assign handlers, but also generate events from JavaScript.
+Можно не только назначать свои обработчики, но также генерировать события из JavaScript. 
 
-Custom events can be used to create "graphical components". For instance, a root element of the menu may trigger events telling what happens with the menu: `open` (menu open),  `select` (an item is selected) and so on.
+Собственные события могут быть использовать для создания "графических компонентов". Например, корневой элемент меню может рассылать события, оповещая о происходящем с меню: `open` (меню раскрылось),  `select` (пункт меню выбран) и т.д.
 
-Also we can generate built-in events like `click`, `mousedown` etc, that may be good for testing.
+Также мы можем генерировать встроенные события такие, как `click`, `mousedown` и подобные, что может помочь при тестировании.
 
 ## Event constructor
 
